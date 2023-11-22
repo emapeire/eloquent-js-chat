@@ -1,30 +1,20 @@
-This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama).
+# Eloquent JavaScript Chat App
 
-## Getting Started
+This is a chat app built with `npx create-llama` and [Eloquent JavaScript](https://eloquentjavascript.net/).
 
-First, install the dependencies:
+In this app you will be able to interact with a intelligent llama that will answer your questions about JavaScript.
 
-```
-npm install
-```
+## First steps
 
-Second, run the development server:
+- You need to put your own OpenAI API key in the `.env.local` file to be able to use the app.
+- Soon you will be able to use the app in your browser with auth credentials to access to your own OpenAI account, but for now you need to run it locally.
 
-```
-npm run dev
-```
+## How to run it locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about LlamaIndex, take a look at the following resources:
-
-- [LlamaIndex Documentation](https://docs.llamaindex.ai) - learn about LlamaIndex (Python features).
-- [LlamaIndexTS Documentation](https://ts.llamaindex.ai) - learn about LlamaIndex (Typescript features).
-
-You can check out [the LlamaIndexTS GitHub repository](https://github.com/run-llama/LlamaIndexTS) - your feedback and contributions are welcome!
+- Clone the repo
+- Run `npm install`
+- Create a `.env.local` file in the root folder
+- Put your OpenAI API key in the `.env` file
+- Run `npm run dev`
+- Open your browser in `localhost:3000`
+- Enjoy learning JavaScript with the llama chat!
