@@ -7,9 +7,9 @@ export default function Header() {
           href='https://eloquentjavascript.net/'
           target='_blank'
           rel='noopener noreferrer'
-          className='font-bold text-blue-600 dark:text-blue-400'
+          className='font-mono font-bold text-blue-600 dark:text-blue-400'
         >
-          <span className='font-mono font-bold'>Eloquent JavaScript</span>
+          <span>Eloquent JavaScript</span>
         </a>
       </p>
       <div className='fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none'>
