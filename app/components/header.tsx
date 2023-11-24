@@ -1,3 +1,5 @@
+import { ModeToggle } from './mode-toggle'
+
 export default function Header() {
   return (
     <div className='z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex'>
@@ -24,6 +26,9 @@ export default function Header() {
             <span>@emapeire</span>
           </a>
         </p>
+      </div>
+      <div>
+        <ModeToggle />
       </div>
     </div>
   )
