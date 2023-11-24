@@ -3,7 +3,7 @@ import { ModeToggle } from './mode-toggle'
 export default function Header() {
   return (
     <div className='flex z-10 max-w-5xl w-full justify-between font-mono text-sm'>
-      <p className='border-b border-neutral-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-black dark:from-inherit static w-auto rounded-md border bg-white py-2.5 px-4'>
+      <p className='border-neutral-200 dark:border-neutral-800 dark:bg-black static w-auto rounded-md border bg-white py-2.5 px-4'>
         Chatting with&nbsp;
         <a
           href='https://eloquentjavascript.net/'
