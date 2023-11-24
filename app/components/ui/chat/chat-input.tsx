@@ -17,11 +17,15 @@ export default function ChatInput(
         autoFocus
         name='message'
         placeholder='Type a message'
-        className='flex-1'
+        className='flex-1 bg-white dark:bg-black border border-neutral-200 dark:border-neutral-800 rounded-sm'
         value={props.input}
         onChange={props.handleInputChange}
       />
-      <Button type='submit' disabled={props.isLoading}>
+      <Button
+        type='submit'
+        disabled={props.isLoading}
+        className='border border-neutral-200 dark:border-neutral-800 rounded-sm text-black bg-white hover:bg-neutral-100 dark:text-white dark:bg-black dark:hover:bg-neutral-900'
+      >
         Send message
       </Button>
     </form>
