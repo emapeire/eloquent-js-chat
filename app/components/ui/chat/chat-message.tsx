@@ -12,7 +12,7 @@ export default function ChatMessage(chatMessage: Message) {
     <div className='flex items-start gap-4 pr-5 pt-5'>
       <ChatAvatar role={chatMessage.role} />
       <div className='group flex flex-1 justify-between gap-2'>
-        <div className='flex-1 mt-0.5'>
+        <div className='flex-1 mt-1'>
           <Markdown content={chatMessage.content} />
         </div>
         <Button
