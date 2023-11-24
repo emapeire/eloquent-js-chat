@@ -4,7 +4,7 @@ import Footer from './components/footer'
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center gap-10 p-20 background-gradient'>
+    <main className='flex min-h-screen flex-col items-center gap-10 px-20 py-16 background-gradient dark:bg-black'>
       <Header />
       <ChatSection />
       <Footer />

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className='fixed bottom-0 left-0 flex w-full items-center font-mono text-sm justify-center pb-6'>
+    <div className='fixed bottom-0 left-0 flex w-full items-center font-mono text-sm justify-center pb-8'>
       <p className='flex items-center justify-center gap-2 border rounded-md bg-white dark:bg-black border-neutral-200 dark:border-neutral-800 px-4 py-2.5 text-black dark:text-white'>
         Built by
         <a
