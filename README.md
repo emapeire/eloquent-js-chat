@@ -6,15 +6,14 @@ In this app you will be able to interact with a intelligent llama that will answ
 
 ## First steps
 
-- You need to put your own OpenAI API key in the `.env.local` file to be able to use the app.
+- You need to put your own OpenAI API key in the `.env` file to be able to use the app.
 - Soon you will be able to use the app in your browser with auth credentials to access to your own OpenAI account, but for now you need to run it locally.
 
 ## How to run it locally
 
-- Clone the repo
-- Run `npm install`
-- Create a `.env.local` file in the root folder
-- Put your OpenAI API key in the `.env.local` file
-- Run `npm run dev`
-- Open your browser in `localhost:3000`
+- Clone the repo.
+- Run `npm install`.
+- Create a `.env` file in the root folder and then put your OpenAI API key.
+- Run `npm run dev`.
+- Open your browser in `localhost:3000`.
 - Enjoy learning JavaScript with the llama chat!
