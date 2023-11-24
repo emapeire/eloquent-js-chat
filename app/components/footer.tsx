@@ -11,14 +11,14 @@ export default function Footer() {
         >
           <span>@emapeire</span>
         </a>
-        with
+        - check out the
         <a
-          href='https://www.llamaindex.ai/'
+          href='https://github.com/emapeire/eloquent-js-chat'
           target='_blank'
           rel='noopener noreferrer'
           className='font-bold text-blue-600 dark:text-blue-400'
         >
-          <span>llama-index</span>
+          <span>code</span>
         </a>
       </p>
     </div>
