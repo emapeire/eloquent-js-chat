@@ -1,5 +1,7 @@
 # Eloquent JavaScript Chat App
 
+![Eloquent JS Chat](https://github.com/emapeire/eloquent-js-chat/assets/63935846/29ecbabb-bdd0-4df3-89f7-ff49a3692963)
+
 This is a chat app built with `npx create-llama` and [Eloquent JavaScript](https://eloquentjavascript.net/).
 
 In this app you will be able to interact with a intelligent llama that will answer your questions about JavaScript.
@@ -17,7 +19,3 @@ In this app you will be able to interact with a intelligent llama that will answ
 - Run `npm run dev`.
 - Open your browser in `localhost:3000`.
 - Enjoy learning JavaScript with the llama chat!
-
-## Demo
-
-<img width="1552" alt="eloquent-js-chat-demo" src="https://github.com/emapeire/eloquent-js-chat/assets/63935846/a86447fe-2ace-444b-b05d-4f4f1560b58b">
